@@ -55,4 +55,4 @@ class openai_ext(BaseExtractor):
         return gpt_extraction(prompt, schema)
 
     def validate_fields(self, prompt: str, schema: list[dict]):
-        return deepseek_validation(prompt, schema)  # if you have this, otherwise fallback to deepseek_validation
+        return deepseek_validation(prompt, schema)  
