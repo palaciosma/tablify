@@ -35,6 +35,3 @@ class BaseProcessor(ABC):
         pass
 
 
-
-
-        
